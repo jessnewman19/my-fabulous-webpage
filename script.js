@@ -1,3 +1,10 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-document.querySelector("body").appendChild(h2);
+document.querySelector('#link > a').id = "linkedIn";
+
+let hover = document.getElementById("linkedIn");
+hover.addEventListener("mouseenter", function(event) { 
+    event.target.style.color = "purple";
+    setTimeout(function() { 
+        event.target.style.color = "";
+    }, 500);
+    }, false);
+
