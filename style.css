@@ -10,3 +10,16 @@ body {
       font-family:Georgia, 'Times New Roman', Times, serif;
       font-size: 14px;
   }
+
+  a {
+      color: #2c87f0;
+  }
+
+  a:visited { 
+      color: #636;
+  }
+
+  a {
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      font-size: 14px;
+  }
