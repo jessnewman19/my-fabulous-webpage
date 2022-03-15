@@ -18,3 +18,19 @@ hover.addEventListener("mouseenter", function(event) {
         }, 1000);
     }, false);
 
+    let heading = document.getElementById("header");
+    heading.addEventListener("animationstart", start); 
+    heading.addEventListener("animationiteration", update);
+    heading.addEventListener("animationend", end);
+
+    function start(e) { 
+        
+    };
+
+    function update(e) { 
+        
+    };
+
+    function end(e) { 
+        
+    };

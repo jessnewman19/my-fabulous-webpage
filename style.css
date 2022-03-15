@@ -5,6 +5,9 @@ body {
   h1 { 
       font-family: Georgia, 'Times New Roman', Times, serif;
       text-align: center;
+      animation-duration: 3s;
+      animation-name: slidein;
+      animation-iteration-count: 2;
   }
 
   .personal { 
