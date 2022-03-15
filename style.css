@@ -4,6 +4,7 @@ body {
 
   h1 { 
       font-family: Georgia, 'Times New Roman', Times, serif;
+      float: left;
   }
 
   .personal { 
@@ -18,4 +19,9 @@ body {
   a {
       font-family:Georgia, 'Times New Roman', Times, serif;
       font-size: 14px;
+  }
+
+  img { 
+      height: 300px;
+      width: 300px;
   }
