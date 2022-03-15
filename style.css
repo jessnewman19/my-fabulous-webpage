@@ -4,24 +4,33 @@ body {
 
   h1 { 
       font-family: Georgia, 'Times New Roman', Times, serif;
-      float: left;
+      text-align: center;
   }
 
   .personal { 
       font-family:Georgia, 'Times New Roman', Times, serif;
       font-size: 14px;
+      text-align: center;
   }
 
   a {
       color: #2c87f0;
-  }
-
-  a {
       font-family:Georgia, 'Times New Roman', Times, serif;
       font-size: 14px;
   }
 
-  img { 
+  #link { 
+      text-align: center;
+  }
+
+  #github { 
+      text-align: center;
+  }
+
+  #selfPhoto { 
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
       height: 300px;
       width: 300px;
   }
